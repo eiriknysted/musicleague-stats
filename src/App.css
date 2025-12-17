@@ -1,0 +1,283 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #646cff;
+  margin: 2rem;
+}
+
+.leaderboard {
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.leaderboard-table thead {
+  background-color: rgba(100, 108, 255, 0.2);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leaderboard-table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.leaderboard-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.rank {
+  width: 60px;
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.rank-1 {
+  color: #ffd700;
+}
+
+.rank-2 {
+  color: #c0c0c0;
+}
+
+.rank-3 {
+  color: #cd7f32;
+}
+
+.competitor-name {
+  font-weight: 500;
+}
+
+.points {
+  width: 100px;
+  text-align: center !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #646cff;
+}
+
+.stats-summary {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.stat-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #646cff;
+}
+
+.voting-stats {
+  text-align: center !important;
+  font-size: 0.75rem;
+}
+
+.voting-detail {
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+}
+
+.voter-name {
+  display: block;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.25rem;
+}
+
+.vote-count {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.no-data {
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+}
+
+.rankings-chart-section {
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.rankings-chart-section h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.rankings-chart {
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rankings-chart svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 2rem 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0;
+}
+
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: -2px;
+}
+
+.tab:hover {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom-color: rgba(100, 108, 255, 0.5);
+}
+
+.tab.active {
+  color: #646cff;
+  border-bottom-color: #646cff;
+}
+
+.voting-patterns-section {
+  margin: 3rem auto;
+  max-width: 1200px;
+}
+
+.voting-patterns-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pattern-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.pattern-section h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #646cff;
+}
+
+.section-description {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.stats-table thead {
+  background-color: rgba(100, 108, 255, 0.15);
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stats-table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.stats-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.stats-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.stat-value {
+  width: 150px;
+  text-align: center !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #646cff;
+}
+
+.performance-metrics-section {
+  margin: 3rem auto;
+  max-width: 1200px;
+}
+
+.performance-metrics-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
