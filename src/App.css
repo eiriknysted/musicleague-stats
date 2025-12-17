@@ -20,20 +20,21 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(100, 108, 255, 0.05);
   border-radius: 8px;
   overflow: hidden;
+  border: 1px solid rgba(100, 108, 255, 0.2);
 }
 
 .leaderboard-table thead {
-  background-color: rgba(100, 108, 255, 0.2);
+  background-color: rgba(100, 108, 255, 0.15);
 }
 
 .leaderboard-table th,
 .leaderboard-table td {
   padding: 1rem;
   text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(100, 108, 255, 0.1);
 }
 
 .leaderboard-table th {
@@ -44,7 +45,7 @@
 }
 
 .leaderboard-table tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(100, 108, 255, 0.1);
 }
 
 .leaderboard-table tbody tr:last-child td {
@@ -91,7 +92,8 @@
 }
 
 .stat-card {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(100, 108, 255, 0.05);
+  border: 1px solid rgba(100, 108, 255, 0.2);
   padding: 1.5rem;
   border-radius: 8px;
   min-width: 150px;
@@ -100,7 +102,7 @@
 .stat-card h3 {
   margin: 0 0 0.5rem 0;
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.7;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -125,18 +127,17 @@
 .voter-name {
   display: block;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 0.25rem;
 }
 
 .vote-count {
   display: block;
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.6;
 }
 
 .no-data {
-  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.4;
   font-style: italic;
 }
 
@@ -144,7 +145,8 @@
   margin: 3rem auto;
   max-width: 1200px;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(100, 108, 255, 0.05);
+  border: 1px solid rgba(100, 108, 255, 0.2);
   border-radius: 12px;
 }
 
@@ -171,7 +173,7 @@
   gap: 0.5rem;
   justify-content: center;
   margin: 2rem 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(100, 108, 255, 0.2);
   padding-bottom: 0;
 }
 
@@ -182,14 +184,14 @@
   padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-bottom: -2px;
 }
 
 .tab:hover {
-  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.9;
   border-bottom-color: rgba(100, 108, 255, 0.5);
 }
 
@@ -211,7 +213,8 @@
 .pattern-section {
   margin: 2rem 0;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(100, 108, 255, 0.05);
+  border: 1px solid rgba(100, 108, 255, 0.2);
   border-radius: 12px;
 }
 
@@ -224,7 +227,7 @@
 .section-description {
   margin-top: 0;
   margin-bottom: 1.5rem;
-  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
   font-style: italic;
   font-size: 0.95rem;
 }
@@ -233,7 +236,8 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: rgba(100, 108, 255, 0.03);
+  border: 1px solid rgba(100, 108, 255, 0.15);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -246,7 +250,7 @@
 .stats-table td {
   padding: 1rem;
   text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(100, 108, 255, 0.1);
 }
 
 .stats-table th {
@@ -257,7 +261,7 @@
 }
 
 .stats-table tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(100, 108, 255, 0.08);
 }
 
 .stats-table tbody tr:last-child td {
